@@ -31,3 +31,10 @@ redux学习笔记
   ## 组件的两个功能
   1. 处理数据（容器）
   2. 根据props和state渲染页面（傻瓜）
+  3. 无状态组件可以用一个函数来表示，参数为props
+  # 组件Context
+  个人理解:
+  - 把store放在最外层组件的context上
+  - 创造一个特殊的组件作为context的提供者(Provider))
+  # React-Redux
+  connect(mapStateToProps,mapDispatchToProps)(组件)
