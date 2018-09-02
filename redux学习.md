@@ -37,4 +37,5 @@ redux学习笔记
   - 把store放在最外层组件的context上
   - 创造一个特殊的组件作为context的提供者(Provider))
   # React-Redux
-  connect(mapStateToProps,mapDispatchToProps)(组件)
+  1. connect(mapStateToProps,mapDispatchToProps)(组件)
+     绑定store上的状态，绑定dispatch(action)
